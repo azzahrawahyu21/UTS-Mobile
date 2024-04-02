@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 body {
-    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/149/13/desktop-wallpaper-blue-pastel-backgrounds-pastel-blue.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2020/11/08/13/28/tree-5723734_640.jpg");
     background-size: cover;
 }
 nav {
@@ -23,17 +23,18 @@ nav ul li {
     position: relative;
 }
 nav ul li a {
-    color: #000080;
+    color: #0c493b;
 }
 nav ul li a:hover {
-    background-color: #b0caff;
+    background-color: #b2d2cc;
+    padding: 10px;
     transition: .3s ease-in-out;
     transition-delay: .1s;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .logo {
-    font-size: 36px;
-    color: #000080;
+    font-size: 30px;
+    color: #0c493b;
     font-weight: bold;
     cursor: pointer;
 }
@@ -43,9 +44,9 @@ nav ul li a:hover {
 }
 table {
     border-collapse: collapse;
-    width: 75%;
+    width: 90%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 th, td {
     border: 1px solid black;
@@ -53,8 +54,10 @@ th, td {
     text-align: center;
 }
 th {
-    background-color: rgb(142, 138, 168);
+    background-color: #478d7d;
 }
 h1 {
     padding-top: 20px;
+    color: #12755e;
+    text-shadow: 2px 2px 10px #0c493b;
 }
