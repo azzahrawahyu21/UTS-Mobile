@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/149/13/desktop-wallpaper-blue-pastel-backgrounds-pastel-blue.jpg");
+    background-size: cover;
+}
+nav {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 17px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a {
+    color: #000080;
+}
+nav ul li a:hover {
+    background-color: #b0caff;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 5px;
+}
+.logo {
+    font-size: 36px;
+    color: #000080;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo img {
+    width: 30px;
+    padding-right: 10px;
+}
+th {
+	text-align: left;
+    padding-left: 10px;
+}
+td {
+    padding-left: 10px;
+}
+ 
+img{
+	width: 100%;
+	margin-top: 10px;
+}
+ 
+.kotak{
+	border: 1px solid black;
+	width: 60%;
+	margin: 10px auto;
+	padding: 20px;
+}
+ 
+.judul{
+	text-align: center;
+    background: rgb(142, 138, 168);
+}
+.blok{
+	overflow: hidden;
+    padding-top: 20px;
+}
+ 
+.kiri{
+	width: 20%;
+	float: left;
+}
+ 
+.kanan{
+	width: 70%;
+	padding:0px 20px;	
+	float: left;
+}
+ 
+@media only screen and (max-width: 768px) {
+	.kotak{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	
+	.kiri{
+		width: 100%;
+	}
+ 
+	.kanan{
+		width: 100%;
+		padding: 0;
+	}
+}

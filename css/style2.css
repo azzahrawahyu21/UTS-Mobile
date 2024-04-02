@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/149/13/desktop-wallpaper-blue-pastel-backgrounds-pastel-blue.jpg");
+    background-size: cover;
+}
+nav {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 17px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a {
+    color: #000080;
+}
+nav ul li a:hover {
+    background-color: #b0caff;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 5px;
+}
+.logo {
+    font-size: 36px;
+    color: #000080;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo img {
+    width: 30px;
+    padding-right: 10px;
+}
+h1 {
+    font-size: 100px;
+    padding-top: 130px;
+}
+p {
+    font-size: 20px;
+    margin: 2px;
+}
+img{
+	width: 100%;
+	margin-top: 10px;
+}
+.content{
+	overflow: hidden;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+ 
+.left{
+	width: 30%;
+	float: left;
+}
+ 
+.right{
+	width: 60%;
+	padding:0px 20px;	
+	float: left;
+}
+button {
+    width: 200px;
+    margin: 20px 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000080;
+    background: transparent;
+    border: 3px solid #000080;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+}

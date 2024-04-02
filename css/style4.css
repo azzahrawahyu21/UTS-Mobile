@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/149/13/desktop-wallpaper-blue-pastel-backgrounds-pastel-blue.jpg");
+    background-size: cover;
+}
+nav {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 17px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a {
+    color: #000080;
+}
+nav ul li a:hover {
+    background-color: #b0caff;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 5px;
+}
+.logo {
+    font-size: 36px;
+    color: #000080;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo img {
+    width: 30px;
+    padding-right: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th img{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333;
+}
+h1 {
+    padding-top: 20px;
+}
